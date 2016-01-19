@@ -53,7 +53,7 @@ class GameCreateVC: UIViewController {
         self.view.addSubview(leftBGView)
         
         
-        
+        //
         
     }
     
