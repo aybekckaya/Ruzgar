@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A34C917B1C4E268600A7EF9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C917A1C4E268600A7EF9A /* AppDelegate.swift */; };
+		A34C917D1C4E268600A7EF9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C917C1C4E268600A7EF9A /* ViewController.swift */; };
+		A34C91801C4E268600A7EF9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34C917E1C4E268600A7EF9A /* Main.storyboard */; };
+		A34C91831C4E268600A7EF9A /* Ruzgar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A34C91811C4E268600A7EF9A /* Ruzgar.xcdatamodeld */; };
+		A34C91851C4E268600A7EF9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34C91841C4E268600A7EF9A /* Assets.xcassets */; };
+		A34C91881C4E268600A7EF9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34C91861C4E268600A7EF9A /* LaunchScreen.storyboard */; };
+		A34C91931C4E268600A7EF9A /* RuzgarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C91921C4E268600A7EF9A /* RuzgarTests.swift */; };
+		A34C919E1C4E268600A7EF9A /* RuzgarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C919D1C4E268600A7EF9A /* RuzgarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A34C918F1C4E268600A7EF9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34C916F1C4E268600A7EF9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34C91761C4E268600A7EF9A;
+			remoteInfo = Ruzgar;
+		};
+		A34C919A1C4E268600A7EF9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34C916F1C4E268600A7EF9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34C91761C4E268600A7EF9A;
+			remoteInfo = Ruzgar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A34C91771C4E268600A7EF9A /* Ruzgar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruzgar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34C917A1C4E268600A7EF9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A34C917C1C4E268600A7EF9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A34C917F1C4E268600A7EF9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A34C91821C4E268600A7EF9A /* Ruzgar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ruzgar.xcdatamodel; sourceTree = "<group>"; };
+		A34C91841C4E268600A7EF9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A34C91871C4E268600A7EF9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A34C91891C4E268600A7EF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34C918E1C4E268600A7EF9A /* RuzgarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuzgarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34C91921C4E268600A7EF9A /* RuzgarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuzgarTests.swift; sourceTree = "<group>"; };
+		A34C91941C4E268600A7EF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34C91991C4E268600A7EF9A /* RuzgarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuzgarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34C919D1C4E268600A7EF9A /* RuzgarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuzgarUITests.swift; sourceTree = "<group>"; };
+		A34C919F1C4E268600A7EF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A34C91741C4E268600A7EF9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C918B1C4E268600A7EF9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C91961C4E268600A7EF9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A34C916E1C4E268600A7EF9A = {
+			isa = PBXGroup;
+			children = (
+				A34C91791C4E268600A7EF9A /* Ruzgar */,
+				A34C91911C4E268600A7EF9A /* RuzgarTests */,
+				A34C919C1C4E268600A7EF9A /* RuzgarUITests */,
+				A34C91781C4E268600A7EF9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A34C91781C4E268600A7EF9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A34C91771C4E268600A7EF9A /* Ruzgar.app */,
+				A34C918E1C4E268600A7EF9A /* RuzgarTests.xctest */,
+				A34C91991C4E268600A7EF9A /* RuzgarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A34C91791C4E268600A7EF9A /* Ruzgar */ = {
+			isa = PBXGroup;
+			children = (
+				A34C917A1C4E268600A7EF9A /* AppDelegate.swift */,
+				A34C917C1C4E268600A7EF9A /* ViewController.swift */,
+				A34C917E1C4E268600A7EF9A /* Main.storyboard */,
+				A34C91841C4E268600A7EF9A /* Assets.xcassets */,
+				A34C91861C4E268600A7EF9A /* LaunchScreen.storyboard */,
+				A34C91891C4E268600A7EF9A /* Info.plist */,
+				A34C91811C4E268600A7EF9A /* Ruzgar.xcdatamodeld */,
+			);
+			path = Ruzgar;
+			sourceTree = "<group>";
+		};
+		A34C91911C4E268600A7EF9A /* RuzgarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A34C91921C4E268600A7EF9A /* RuzgarTests.swift */,
+				A34C91941C4E268600A7EF9A /* Info.plist */,
+			);
+			path = RuzgarTests;
+			sourceTree = "<group>";
+		};
+		A34C919C1C4E268600A7EF9A /* RuzgarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A34C919D1C4E268600A7EF9A /* RuzgarUITests.swift */,
+				A34C919F1C4E268600A7EF9A /* Info.plist */,
+			);
+			path = RuzgarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A34C91761C4E268600A7EF9A /* Ruzgar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C91A21C4E268600A7EF9A /* Build configuration list for PBXNativeTarget "Ruzgar" */;
+			buildPhases = (
+				A34C91731C4E268600A7EF9A /* Sources */,
+				A34C91741C4E268600A7EF9A /* Frameworks */,
+				A34C91751C4E268600A7EF9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ruzgar;
+			productName = Ruzgar;
+			productReference = A34C91771C4E268600A7EF9A /* Ruzgar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A34C918D1C4E268600A7EF9A /* RuzgarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C91A51C4E268600A7EF9A /* Build configuration list for PBXNativeTarget "RuzgarTests" */;
+			buildPhases = (
+				A34C918A1C4E268600A7EF9A /* Sources */,
+				A34C918B1C4E268600A7EF9A /* Frameworks */,
+				A34C918C1C4E268600A7EF9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34C91901C4E268600A7EF9A /* PBXTargetDependency */,
+			);
+			name = RuzgarTests;
+			productName = RuzgarTests;
+			productReference = A34C918E1C4E268600A7EF9A /* RuzgarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A34C91981C4E268600A7EF9A /* RuzgarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C91A81C4E268600A7EF9A /* Build configuration list for PBXNativeTarget "RuzgarUITests" */;
+			buildPhases = (
+				A34C91951C4E268600A7EF9A /* Sources */,
+				A34C91961C4E268600A7EF9A /* Frameworks */,
+				A34C91971C4E268600A7EF9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34C919B1C4E268600A7EF9A /* PBXTargetDependency */,
+			);
+			name = RuzgarUITests;
+			productName = RuzgarUITests;
+			productReference = A34C91991C4E268600A7EF9A /* RuzgarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A34C916F1C4E268600A7EF9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "aybek can kaya";
+				TargetAttributes = {
+					A34C91761C4E268600A7EF9A = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A34C918D1C4E268600A7EF9A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A34C91761C4E268600A7EF9A;
+					};
+					A34C91981C4E268600A7EF9A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A34C91761C4E268600A7EF9A;
+					};
+				};
+			};
+			buildConfigurationList = A34C91721C4E268600A7EF9A /* Build configuration list for PBXProject "Ruzgar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A34C916E1C4E268600A7EF9A;
+			productRefGroup = A34C91781C4E268600A7EF9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A34C91761C4E268600A7EF9A /* Ruzgar */,
+				A34C918D1C4E268600A7EF9A /* RuzgarTests */,
+				A34C91981C4E268600A7EF9A /* RuzgarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A34C91751C4E268600A7EF9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C91881C4E268600A7EF9A /* LaunchScreen.storyboard in Resources */,
+				A34C91851C4E268600A7EF9A /* Assets.xcassets in Resources */,
+				A34C91801C4E268600A7EF9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C918C1C4E268600A7EF9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C91971C4E268600A7EF9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A34C91731C4E268600A7EF9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C917D1C4E268600A7EF9A /* ViewController.swift in Sources */,
+				A34C917B1C4E268600A7EF9A /* AppDelegate.swift in Sources */,
+				A34C91831C4E268600A7EF9A /* Ruzgar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C918A1C4E268600A7EF9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C91931C4E268600A7EF9A /* RuzgarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C91951C4E268600A7EF9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C919E1C4E268600A7EF9A /* RuzgarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A34C91901C4E268600A7EF9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34C91761C4E268600A7EF9A /* Ruzgar */;
+			targetProxy = A34C918F1C4E268600A7EF9A /* PBXContainerItemProxy */;
+		};
+		A34C919B1C4E268600A7EF9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34C91761C4E268600A7EF9A /* Ruzgar */;
+			targetProxy = A34C919A1C4E268600A7EF9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A34C917E1C4E268600A7EF9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34C917F1C4E268600A7EF9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A34C91861C4E268600A7EF9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34C91871C4E268600A7EF9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A34C91A01C4E268600A7EF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A34C91A11C4E268600A7EF9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A34C91A31C4E268600A7EF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ruzgar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ack.Ruzgar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A34C91A41C4E268600A7EF9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ruzgar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ack.Ruzgar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A34C91A61C4E268600A7EF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuzgarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ack.RuzgarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ruzgar.app/Ruzgar";
+			};
+			name = Debug;
+		};
+		A34C91A71C4E268600A7EF9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuzgarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ack.RuzgarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ruzgar.app/Ruzgar";
+			};
+			name = Release;
+		};
+		A34C91A91C4E268600A7EF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuzgarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ack.RuzgarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ruzgar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A34C91AA1C4E268600A7EF9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuzgarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ack.RuzgarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ruzgar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A34C91721C4E268600A7EF9A /* Build configuration list for PBXProject "Ruzgar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C91A01C4E268600A7EF9A /* Debug */,
+				A34C91A11C4E268600A7EF9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34C91A21C4E268600A7EF9A /* Build configuration list for PBXNativeTarget "Ruzgar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C91A31C4E268600A7EF9A /* Debug */,
+				A34C91A41C4E268600A7EF9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A34C91A51C4E268600A7EF9A /* Build configuration list for PBXNativeTarget "RuzgarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C91A61C4E268600A7EF9A /* Debug */,
+				A34C91A71C4E268600A7EF9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A34C91A81C4E268600A7EF9A /* Build configuration list for PBXNativeTarget "RuzgarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C91A91C4E268600A7EF9A /* Debug */,
+				A34C91AA1C4E268600A7EF9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A34C91811C4E268600A7EF9A /* Ruzgar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A34C91821C4E268600A7EF9A /* Ruzgar.xcdatamodel */,
+			);
+			currentVersion = A34C91821C4E268600A7EF9A /* Ruzgar.xcdatamodel */;
+			path = Ruzgar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A34C916F1C4E268600A7EF9A /* Project object */;
+}
