@@ -15,6 +15,21 @@
 		A34C91881C4E268600A7EF9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34C91861C4E268600A7EF9A /* LaunchScreen.storyboard */; };
 		A34C91931C4E268600A7EF9A /* RuzgarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C91921C4E268600A7EF9A /* RuzgarTests.swift */; };
 		A34C919E1C4E268600A7EF9A /* RuzgarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C919D1C4E268600A7EF9A /* RuzgarUITests.swift */; };
+		A34C91B21C4E272D00A7EF9A /* backgroundPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = A34C91AC1C4E272D00A7EF9A /* backgroundPattern.png */; };
+		A34C91B31C4E272D00A7EF9A /* Gothic.png in Resources */ = {isa = PBXBuildFile; fileRef = A34C91AD1C4E272D00A7EF9A /* Gothic.png */; };
+		A34C91B41C4E272D00A7EF9A /* Hoodie.png in Resources */ = {isa = PBXBuildFile; fileRef = A34C91AE1C4E272D00A7EF9A /* Hoodie.png */; };
+		A34C91B51C4E272D00A7EF9A /* Man.png in Resources */ = {isa = PBXBuildFile; fileRef = A34C91AF1C4E272D00A7EF9A /* Man.png */; };
+		A34C91B61C4E272D00A7EF9A /* mazePattern.png in Resources */ = {isa = PBXBuildFile; fileRef = A34C91B01C4E272D00A7EF9A /* mazePattern.png */; };
+		A34C91B71C4E272D00A7EF9A /* Teenager.png in Resources */ = {isa = PBXBuildFile; fileRef = A34C91B11C4E272D00A7EF9A /* Teenager.png */; };
+		A34C91BA1C4E28D100A7EF9A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C91B91C4E28D100A7EF9A /* GameView.swift */; };
+		A34C91BD1C4E3FEA00A7EF9A /* GameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C91BC1C4E3FEA00A7EF9A /* GameList.swift */; };
+		A34C91BE1C4E3FEA00A7EF9A /* GameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C91BC1C4E3FEA00A7EF9A /* GameList.swift */; };
+		A34C91C01C4E43FD00A7EF9A /* BASE_HEADER.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C91BF1C4E43FD00A7EF9A /* BASE_HEADER.swift */; };
+		A34C91C11C4E43FD00A7EF9A /* BASE_HEADER.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C91BF1C4E43FD00A7EF9A /* BASE_HEADER.swift */; };
+		A34C91C41C4E444300A7EF9A /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C91C31C4E444300A7EF9A /* Plist.swift */; };
+		A34C91C51C4E444300A7EF9A /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C91C31C4E444300A7EF9A /* Plist.swift */; };
+		A34C91C71C4E654A00A7EF9A /* GameCreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C91C61C4E654A00A7EF9A /* GameCreateVC.swift */; };
+		A34C91C81C4E654A00A7EF9A /* GameCreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C91C61C4E654A00A7EF9A /* GameCreateVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,17 @@
 		A34C91991C4E268600A7EF9A /* RuzgarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuzgarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34C919D1C4E268600A7EF9A /* RuzgarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuzgarUITests.swift; sourceTree = "<group>"; };
 		A34C919F1C4E268600A7EF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34C91AC1C4E272D00A7EF9A /* backgroundPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundPattern.png; sourceTree = "<group>"; };
+		A34C91AD1C4E272D00A7EF9A /* Gothic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gothic.png; sourceTree = "<group>"; };
+		A34C91AE1C4E272D00A7EF9A /* Hoodie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hoodie.png; sourceTree = "<group>"; };
+		A34C91AF1C4E272D00A7EF9A /* Man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Man.png; sourceTree = "<group>"; };
+		A34C91B01C4E272D00A7EF9A /* mazePattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mazePattern.png; sourceTree = "<group>"; };
+		A34C91B11C4E272D00A7EF9A /* Teenager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teenager.png; sourceTree = "<group>"; };
+		A34C91B91C4E28D100A7EF9A /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		A34C91BC1C4E3FEA00A7EF9A /* GameList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameList.swift; sourceTree = "<group>"; };
+		A34C91BF1C4E43FD00A7EF9A /* BASE_HEADER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASE_HEADER.swift; sourceTree = "<group>"; };
+		A34C91C31C4E444300A7EF9A /* Plist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plist.swift; sourceTree = "<group>"; };
+		A34C91C61C4E654A00A7EF9A /* GameCreateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCreateVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +125,10 @@
 		A34C91791C4E268600A7EF9A /* Ruzgar */ = {
 			isa = PBXGroup;
 			children = (
+				A34C91C21C4E443800A7EF9A /* Core */,
+				A34C91BB1C4E3FD300A7EF9A /* Models */,
+				A34C91B81C4E28BD00A7EF9A /* Views */,
+				A34C91AB1C4E26FD00A7EF9A /* Images */,
 				A34C917A1C4E268600A7EF9A /* AppDelegate.swift */,
 				A34C917C1C4E268600A7EF9A /* ViewController.swift */,
 				A34C917E1C4E268600A7EF9A /* Main.storyboard */,
@@ -106,6 +136,8 @@
 				A34C91861C4E268600A7EF9A /* LaunchScreen.storyboard */,
 				A34C91891C4E268600A7EF9A /* Info.plist */,
 				A34C91811C4E268600A7EF9A /* Ruzgar.xcdatamodeld */,
+				A34C91BF1C4E43FD00A7EF9A /* BASE_HEADER.swift */,
+				A34C91C61C4E654A00A7EF9A /* GameCreateVC.swift */,
 			);
 			path = Ruzgar;
 			sourceTree = "<group>";
@@ -126,6 +158,43 @@
 				A34C919F1C4E268600A7EF9A /* Info.plist */,
 			);
 			path = RuzgarUITests;
+			sourceTree = "<group>";
+		};
+		A34C91AB1C4E26FD00A7EF9A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A34C91AC1C4E272D00A7EF9A /* backgroundPattern.png */,
+				A34C91AD1C4E272D00A7EF9A /* Gothic.png */,
+				A34C91AE1C4E272D00A7EF9A /* Hoodie.png */,
+				A34C91AF1C4E272D00A7EF9A /* Man.png */,
+				A34C91B01C4E272D00A7EF9A /* mazePattern.png */,
+				A34C91B11C4E272D00A7EF9A /* Teenager.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A34C91B81C4E28BD00A7EF9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A34C91B91C4E28D100A7EF9A /* GameView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A34C91BB1C4E3FD300A7EF9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A34C91BC1C4E3FEA00A7EF9A /* GameList.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A34C91C21C4E443800A7EF9A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A34C91C31C4E444300A7EF9A /* Plist.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +265,7 @@
 				TargetAttributes = {
 					A34C91761C4E268600A7EF9A = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8FMTT8DQ4W;
 					};
 					A34C918D1C4E268600A7EF9A = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -233,8 +303,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A34C91881C4E268600A7EF9A /* LaunchScreen.storyboard in Resources */,
+				A34C91B71C4E272D00A7EF9A /* Teenager.png in Resources */,
+				A34C91B51C4E272D00A7EF9A /* Man.png in Resources */,
+				A34C91B31C4E272D00A7EF9A /* Gothic.png in Resources */,
 				A34C91851C4E268600A7EF9A /* Assets.xcassets in Resources */,
+				A34C91B41C4E272D00A7EF9A /* Hoodie.png in Resources */,
 				A34C91801C4E268600A7EF9A /* Main.storyboard in Resources */,
+				A34C91B61C4E272D00A7EF9A /* mazePattern.png in Resources */,
+				A34C91B21C4E272D00A7EF9A /* backgroundPattern.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +335,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34C91C41C4E444300A7EF9A /* Plist.swift in Sources */,
 				A34C917D1C4E268600A7EF9A /* ViewController.swift in Sources */,
+				A34C91C01C4E43FD00A7EF9A /* BASE_HEADER.swift in Sources */,
 				A34C917B1C4E268600A7EF9A /* AppDelegate.swift in Sources */,
+				A34C91C71C4E654A00A7EF9A /* GameCreateVC.swift in Sources */,
+				A34C91BD1C4E3FEA00A7EF9A /* GameList.swift in Sources */,
+				A34C91BA1C4E28D100A7EF9A /* GameView.swift in Sources */,
 				A34C91831C4E268600A7EF9A /* Ruzgar.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +351,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A34C91931C4E268600A7EF9A /* RuzgarTests.swift in Sources */,
+				A34C91C81C4E654A00A7EF9A /* GameCreateVC.swift in Sources */,
+				A34C91C11C4E43FD00A7EF9A /* BASE_HEADER.swift in Sources */,
+				A34C91C51C4E444300A7EF9A /* Plist.swift in Sources */,
+				A34C91BE1C4E3FEA00A7EF9A /* GameList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +488,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Ruzgar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ack.Ruzgar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,7 +501,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Ruzgar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ack.Ruzgar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
