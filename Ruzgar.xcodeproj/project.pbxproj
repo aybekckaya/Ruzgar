@@ -577,6 +577,7 @@
 				A34C91A41C4E268600A7EF9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A34C91A51C4E268600A7EF9A /* Build configuration list for PBXNativeTarget "RuzgarTests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +586,7 @@
 				A34C91A71C4E268600A7EF9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A34C91A81C4E268600A7EF9A /* Build configuration list for PBXNativeTarget "RuzgarUITests" */ = {
 			isa = XCConfigurationList;
@@ -593,6 +595,7 @@
 				A34C91AA1C4E268600A7EF9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

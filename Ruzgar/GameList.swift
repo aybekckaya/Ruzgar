@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 
 enum GameBlock:Int
 {
@@ -81,6 +81,54 @@ class GameList:NSObject
         list.write(withKey: String(self.ID), object: self.gameArray!)
         
     }
+    
+// MARK: -  BOARD LOCATION CONVERT 
+    
+    
+    static func boardLocationFromPoint(point:CGPoint)->Int
+    {
+        let bounds = UIScreen.mainScreen().bounds
+        
+       // print(BLOCK_DIMENSION_320)
+        let blockDimension = Float(CGFloat(bounds.size.width) * CGFloat(BLOCK_DIMENSION_320) / 320 )
+        
+        let xDimension:Int = Int(point.x/CGFloat(blockDimension))
+        let yDimension:Int = Int(point.y/CGFloat(blockDimension))
+        
+        
+        return yDimension*ELEM_NUM_WIDTH + xDimension
+    }
+    
+    
+    static func centerPointFromBoardLocation(boardLocationIndex:Int) ->CGPoint
+    {
+        let rect = GameList.frameFromBoardLocation(boardLocationIndex)
+        
+        let ptCenter:CGPoint = CGPointMake(rect.origin.x + rect.size.width/2, rect.origin.y + rect.size.height/2)
+        
+        return ptCenter
+    }
+    
+    static func frameFromBoardLocation(boardLocationIndex:Int)->CGRect
+    {
+        let bounds = UIScreen.mainScreen().bounds
+        
+        // print(BLOCK_DIMENSION_320)
+        let blockDimension = Int(Float(CGFloat(bounds.size.width) * CGFloat(BLOCK_DIMENSION_320) / 320 ))
+        
+        let yIndex:Int = boardLocationIndex / ELEM_NUM_WIDTH
+        let xIndex:Int = boardLocationIndex - (yIndex * ELEM_NUM_WIDTH)
+        
+        let rect = CGRectMake(CGFloat(xIndex*blockDimension), CGFloat(yIndex*blockDimension), CGFloat(blockDimension), CGFloat(blockDimension))
+        
+       return rect
+    }
+    
+    
+    
+    
+    
+    
     
 }
 
